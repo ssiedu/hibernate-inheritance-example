@@ -7,11 +7,11 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 
 @Entity
-@Inheritance(strategy=InheritanceType.JOINED)
+//@Inheritance(strategy=InheritanceType.JOINED)
 //@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
 //@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
 //@DiscriminatorColumn(name="emptype")
-public abstract class Employee {
+public  class Employee {
 	@Id
 	private int ecode;
 	private String ename;
